@@ -14,6 +14,7 @@ chapter1/   — Chapter 1: A Tutorial Introduction
 |----------|-------------|--------|
 | 1.17 | Print all lines longer than 80 characters | ✅ |
 | 1.18 | Replace sequences of blanks and tabs with a single space | ✅ |
+| 1.19 | Reverse each input line | ✅ |
 
 ## Notes
 
