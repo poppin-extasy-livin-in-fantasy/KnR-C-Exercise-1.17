@@ -3,7 +3,7 @@
 Solution to exercise 1.21 from "The C Programming Language" by Kernighan & Ritchie.
 This program (`entab`) replaces strings of spaces with the minimum number of tabs and spaces to achieve the same spacing.
 
-Written in C (C11), compiled with GCC / Clang.
+Written in C (C11), compiled with MSVC (Visual Studio) / GCC
 
 ## How It Works
 The program uses an **deferred-write architecture** with an internal tracking buffer ("pocket" for spaces). Instead of writing spaces immediately to the array, it accumulates them until a non-space character is met or a virtual tab stop boundary is reached.
